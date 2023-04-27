@@ -10,7 +10,7 @@ int main(void)
 
     while(i<=9){
         y = n*i;
-        printf("%d*%d= y\n", n, i);
+        printf("%d*%d= %d\n", n, i, y);
         i++;
     }
     return 0;
